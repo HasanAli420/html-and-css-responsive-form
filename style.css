@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.div-flex{
+    display: flex;
+    gap: 10px;
+}
+
+.p-style{
+    color: rgb(241, 245, 8);
+    font-size: 18px;
+}
+
+.btn{
+    background: #56ae57;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 450px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+.main form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.main form > p{
+    color: aqua;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.main form .inputbox input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.main form .privacy{
+    margin-top: 15px;
+}
+
+.main form .privacy a{
+    color: red;
+}
